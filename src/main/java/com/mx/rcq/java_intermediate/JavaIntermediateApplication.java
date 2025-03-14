@@ -42,8 +42,9 @@ public class JavaIntermediateApplication {
         // cliente.start();
 
         // Fibonacci suma de pares menor a 4 millones
+        System.out.println("Fibonacci");
         Fibonacci fibonacci = new Fibonacci();
-        System.out.println(fibonacci.sumaFibonacci(4000000));
+        System.out.println(fibonacci.persFibonacci(5, 9));
 	}
 
 }
